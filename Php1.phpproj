@@ -1,0 +1,23 @@
+﻿<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>3f3baa46-1591-4330-b693-beec1059739d</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>PHPDev</EnvName>
+    <RuntimeVersion>8.1</RuntimeVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Sendziowie.txt" />
+    <Content Remove="zad1.php" />
+    <Content Remove="zad2.php" />
+    <Content Remove="zad3.php" />
+    <Content Remove="zad4.php" />
+    <Content Remove="zad5.php" />
+    <Content Remove="zad6.php" />
+    <Content Remove="zad7.php" />
+    <Content Remove="zad8.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\" />
+  </ItemGroup>
+</Project>
